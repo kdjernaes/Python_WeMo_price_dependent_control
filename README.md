@@ -2,6 +2,7 @@
 
 Author: Kdjernaes
 Code language: Python (3.11)
+Software: Visual Studio
 Applicable country: Denmark (or a change in API is necessary)
 
 Disclaimer :-):
@@ -17,5 +18,6 @@ If the current Hr-span is not on the cheapest list, the WeMo-switch will turn of
 
 Implementation:
 How to run as a Windows Task Scheduler task
-1. Publish (or copy?) "Main.py"
-2. Run "Main.py" each hour (ex. 14:00:30) through Windows Task Scheduler. Remember to tell WTS to repeat the task each hour (indefinitely).
+1. Update "main.py" with the IP-adress of the WeMo switch within your network.
+2. Publish "Main.py"
+3. Run "Main.py" each hour (ex. 14:00:30) through Windows Task Scheduler. Remember to tell WTS to repeat the task each hour (indefinitely).
